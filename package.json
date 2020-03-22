@@ -1,0 +1,16 @@
+{
+  "name": "facerecognitiondll",
+  "version": "1.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "install": "node-gyp configure build --target=7.1.7 --arch=x64 -dist-url=https://atom.io/download/atom-shell"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "__npminstall_done": true,
+  "dependencies": {
+    "node-gyp": "^6.1.0"
+  }
+}
